@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1063678564821",
+    "firebase_url": "https://lumos-2ce37.firebaseio.com",
+    "project_id": "lumos-2ce37",
+    "storage_bucket": "lumos-2ce37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063678564821:android:f7a5c6bbda51babc3a455c",
+        "android_client_info": {
+          "package_name": "hk.edu.skhlmc.lumos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063678564821-a2q7kj8ap2ofi4uipgl9g7rdl0imnnad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hk.edu.skhlmc.lumos",
+            "certificate_hash": "cbed4064b5a91512f081f575466352b9219d6106"
+          }
+        },
+        {
+          "client_id": "1063678564821-dan82m11ir5470iinmlbfl0nr40bhip5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIk0bVDbZafyfpN16mcYk7ds7jqfEdfyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063678564821-dan82m11ir5470iinmlbfl0nr40bhip5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

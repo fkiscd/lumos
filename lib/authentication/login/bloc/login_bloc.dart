@@ -2,10 +2,10 @@ import 'dart:async';
 
 import 'package:meta/meta.dart';
 import 'package:bloc/bloc.dart';
-import 'package:lumos/firebase/user_repository.dart';
+import '../../firebase/user_repository.dart';
 import 'package:equatable/equatable.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:lumos/validators.dart';
+import '../../validators.dart';
 
 part 'login_event.dart';
 

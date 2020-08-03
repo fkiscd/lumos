@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:lumos/login/bloc/login_bloc.dart';
-import 'package:lumos/authentication_bloc/authentication_bloc.dart';
-import 'package:lumos/firebase/user_repository.dart';
+import '../login/bloc/login_bloc.dart';
+import '../authentication_bloc/authentication_bloc.dart';
+import '../firebase/user_repository.dart';
 import 'login_button.dart';
 import 'google_login_button.dart';
 import 'create_account_button.dart';

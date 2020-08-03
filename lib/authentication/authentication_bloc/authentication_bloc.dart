@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:lumos/firebase/user_repository.dart';
+import '../firebase/user_repository.dart';
 import 'package:meta/meta.dart';
 
 part 'authentication_event.dart';

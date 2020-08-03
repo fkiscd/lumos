@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:lumos/firebase/user_repository.dart';
+import '../firebase/user_repository.dart';
 import 'register.dart';
 
 class RegisterPage extends StatelessWidget {

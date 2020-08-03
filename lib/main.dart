@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:lumos/authentication_bloc/authentication_bloc.dart';
-import 'package:lumos/firebase/user_repository.dart';
-import 'package:lumos/simple_bloc_observer.dart';
+import 'authentication/authentication_bloc/authentication_bloc.dart';
+import 'authentication/firebase/user_repository.dart';
+import 'authentication/simple_bloc_observer.dart';
 import 'package:lumos/splash_page.dart';
 import 'package:lumos/home_page.dart';
-import 'login/login_page.dart';
+import 'authentication/login/login_page.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

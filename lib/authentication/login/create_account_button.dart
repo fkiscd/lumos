@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lumos/firebase/user_repository.dart';
+import '../firebase/user_repository.dart';
 import '../register/register_page.dart';
 
 class CreateAccountButton extends StatelessWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:lumos/authentication_bloc/authentication_bloc.dart';
+import 'authentication/authentication_bloc/authentication_bloc.dart';
 
 class HomePage extends StatelessWidget {
   final String name;
@@ -14,13 +14,14 @@ class HomePage extends StatelessWidget {
         title: Text('Home Page'),
         actions: <Widget>[
           IconButton(
+            alignment: Alignment.center,
             icon: Icon(Icons.exit_to_app),
             onPressed: () {
               BlocProvider.of<AuthenticationBloc>(context).add(
                 AuthenticationLoggedOut(),
               );
             },
-          )
+          ),
         ],
       ),
       body: Column(

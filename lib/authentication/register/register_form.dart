@@ -19,7 +19,7 @@ class _RegisterFormState extends State<RegisterForm> {
       _emailController.text.isNotEmpty && _passwordController.text.isNotEmpty && _confirmPasswordController.text.isNotEmpty;
 
   bool isRegisterButtonEnabled(RegisterState state) {
-    return state.isFormValid && isPopulated && !state.isSubmitting && (_confirmPasswordController == _passwordController);
+    return state.isFormValid && isPopulated && !state.isSubmitting && (_confirmPasswordController.text == _passwordController.text);
   }
 
   @override
